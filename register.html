@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sweet Life</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+
+</head>
+<body>
+        <div class="container">
+<header>
+    <!--  Navbar beginning-->
+    <nav>
+        <div class="nav-brand" >
+           <h2>Sweet Life</h2>
+        </div>
+        <div class="nav-links" >
+            <a href="index.html">Home</a>
+            <a class="active"  href="register.html">Register</a>
+            <a href="order.html">Order</a>
+            <a href="features.html">Features</a>
+        </div>
+        
+    </nav>
+</header>
+
+<!-- Begining of main -->
+<main>
+    <section class="register-section">
+       
+        <form class="reg-form">
+            <h1>Register</h1>
+            <div>
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username" name="username"/>
+                <small></small>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter email" name="email" autocomplete="on"/>
+                <small></small>
+            </div>
+            <div>
+                <label for="password">password</label>
+                <input type="text" id="password" placeholder="Enter password"name="password" autocomplete="on"/>
+                <small></small>
+            </div>
+            <div >
+               <p class="form-title"> Select your Gender</p> 
+                <div class="radio-div">
+                    <div>
+                        <label for="male">Male</label>
+                        <input type="radio" id="male" name="gender" autocomplete="on"/>
+    
+                    </div>
+                    <div>
+                        <label for="female">Female</label>
+                        <input type="radio" id="female" name="gender" autocomplete="on"/>
+    
+                    </div>
+                    <div>
+                        <label for="notsay">Rather not say</label>
+                        <input type="radio" id="notsay" name="gender" autocomplete="on" />
+    
+                    </div>
+                </div>
+              
+                <small id="gender-error"></small>
+            </div>
+            <div >
+               <p class="form-title">Select your Preferred Icecreams</p> 
+               <div class="checkbox-div">
+                <div>
+                    <label for="vanilla">Vanilla</label>
+                    <input type="checkbox" id="vanilla" name="preference" value="vanilla" />
+
+                </div>
+                <div>
+                    <label for="caramel">Caramel</label>
+                    <input type="checkbox" id="caramel" name="preference" value="caramel"/>
+
+                </div>
+                <div>
+                    <label for="chocolate">Chocolate</label>
+                    <input type="checkbox" id="chocolate" name="preference" value="chocolate"/>
+
+                </div>
+                <div>
+                    <label for="strawberry">Strawberry</label>
+                    <input type="checkbox" id="strawberry" name="preference" value="strawberry"/>
+
+                </div>
+                <div>
+                    <label for="blueberry">Blue berry</label>
+                    <input type="checkbox" id="blueberry" name="preference" value="blueberry"/>
+
+                </div>
+                <small id="preferred-checkbox-error"></small>
+
+               </div>
+               
+               
+            </div>
+            <div class="select-div">
+                <label for="preference">Preference</label>
+
+                <select id="preference" name="favorite">
+                    <option value="vanilla">Vanilla</option>
+                    <option value="vanilla">Caramel</option>
+                    <option value="vanilla">Chocolate</option>
+                    <option value="vanilla">Strawberry</option>
+                    <option value="vanilla">Blueberry</option>
+   
+                </select>
+                <small class="select-error"></small>
+            </div>
+            <div>
+                <button class="button-submit" type="submit">Submit</button>
+            </div>
+          
+        
+        
+
+
+        </form>
+
+    </section>
+   
+</main>
+<footer>
+<div class="location-info">
+<h2>How to find us</h2>
+<a href="tel:011345675161">+011 345 615 161 </a>
+<a href="mailto:sweetlifeice@gmail.com">sweetlifeice@gmail.com </a>
+<p>555, John Kennedy Street </p>
+</div>
+<div class="copyright-section">
+    <p>This website has been developed by sweet Life IceCream &copy 2022</p>
+
+</div>
+
+<!-- Beginning of footer -->
+</footer>
+</div>
+
+
+    <script type='' src='./js/script.js'></script>
+</body>
+</html>
+<script>
+   
+</script>

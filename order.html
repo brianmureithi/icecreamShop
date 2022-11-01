@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sweet Life</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style.css'>
+
+</head>
+<body>
+    <div class="container">
+<header>
+    <!--  Navbar beginning-->
+    <nav>
+        <div class="nav-brand" >
+           <h2>Sweet Life</h2>
+        </div>
+        <div class="nav-links" >
+            <a  href="index.html">Home</a>
+            <a href="register.html">Register</a>
+            <a class="active" href="order.html">Order</a>
+            <a href="features.html">Features</a>
+        </div>
+        
+    </nav>
+</header>
+
+<!-- Begining of main -->
+<main>
+    <!-- Order-form section -->
+    <section class="order-form-section">
+        <form class="order-form">
+            <h1>Place order</h1>
+            <div >
+                <!-- order-radio -->
+                <p class="form-title"> Choose one </p> 
+                <div class="radio-div">
+                    <div >
+                        <label for="delivery">Delivery</label>
+                        <input id="delivery" type="radio" name="deliver" value="delivery" />
+                    </div>
+                    <div>
+                        <label for="pickup">Pickup</label>
+                        <input id="pickup" type="radio" name="deliver" value="pickup" />
+                    </div> 
+                </div>
+               
+            </div>
+            <!-- Address Section -->
+                                <div id="delivery-address-id">
+                                    <p class="form-title"> Enter Delivery Address </p> 
+                                    <div class="address-div">
+                                <div>
+                                <label for="street-number">Street number</label>
+                                    <input id="street-number" type="number" name="street-number" placeholder="Enter street number"/>
+                                    <small></small>
+                                </div>
+                                <div>
+                                <label for="city">City </label>
+                                    <input id="city" type="text" placeholder="Enter city" name="city"/>
+                                    <small></small>
+                                </div>
+                                <div>
+                                <label for="postal-code">Street number</label>
+                                    <input id="postal-code" type="number" placeholder="Enter postal code" name="postal-code"/>
+                                    <small></small>
+                                </div>
+                                <div>
+                                <label for="country">Country</label>
+                                    <input id="country" type="text" placeholder="Country" name="country"/>
+                                    <small></small>
+                                </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="billing-filling-check">
+                                    <label>Use same address as delivery?</label>
+                                    <input name="billingToggle" id="billingToggle" type="checkbox" value="true"/>
+                                    <small></small>
+                                </div>
+            <!-- Billing Address section -->
+                    <div>
+                        <p class="form-title"> Enter Billing Address </p> 
+                        <div class="address-div">
+                    <div>
+                    <label for="street-number-billing">Street number</label>
+                        <input id="street-number-billing" type="number" name="street-number-billing" placeholder="Enter street number"/>
+                        <small></small>
+                    </div>
+                    <div>
+                    <label for="city-billing">City </label>
+                        <input id="city-billing" type="text" placeholder="Enter city" name="city-billing"/>
+                        <small></small>
+                    </div>
+                    <div>
+                    <label for="postal-code-billing">Street number</label>
+                        <input id="postal-code-billing" type="number" placeholder="Enter postal code" name="postal-code-billing"/>
+                        <small></small>
+                    </div>
+                    <div>
+                    <label for="country-billing">Country</label>
+                        <input id="country-billing" type="text" placeholder="Country" name="country-billing"/>
+                        <small></small>
+                    </div>
+                        </div>
+                        
+                    </div>
+
+
+            <div>
+                <label for="email">Email </label>
+                <input id="email" type="email" name="receipt-email" placeholder="Enter Email for receipt"/>
+                <small></small>
+            </div>
+
+
+            <div >
+                <p class="form-title"> When would you like to pay</p>
+                <div class="radio-div">
+                    <div>
+                        <label for="pickup-payment">On pickup</label>
+                        <input id="pickup-payment" type="radio" name="payment" value="pickup" />
+
+                    </div>
+                    <div>
+                        <label for="online-payment">Online</label>
+                        <input id="online-payment" type="radio" name="payment" value="online" />
+                    </div>
+                </div> 
+               
+            </div>
+
+
+
+            <div  id="payment-options">
+                  <p class="form-title"> Choose one of the following payment methods</p>
+                  <div class="radio-div">
+                    <div>
+                        <label for="visa">Visa</label>
+                        <input id="visa" type="radio" name="payment-method" value="visa" />
+                    </div>
+                    <div>
+                        <label for="mastercard">Mastercard</label>
+                        <input id="master-card" type="radio" name="payment-method" value="mastercard" />
+                    </div>
+                    <div>
+                        <label for="american-express">American Express</label>
+                        <input id="american-express" type="radio" name="payment-method" value="american-express" />
+                    </div>
+
+                  </div> 
+               
+            </div>
+
+            <div class="credit-card-input">
+                <label for="credit-card">Credit Card </label>
+                <input id="credit-card" type="number" name="credit-card"placeholder="Enter credit card number" maxlength="15"/>
+                <small></small>
+            </div>
+            <div>
+                <button type="submit" class="button-submit">Submit</button>
+            </div>
+           
+
+        </form>
+
+    </section>
+   
+   
+</main>
+<!-- Beginning of footer -->
+<footer>
+<div class="location-info">
+<h2>How to find us</h2>
+<a href="tel:011345675161">+011 345 615 161 </a>
+<a href="mailto:sweetlifeice@gmail.com">sweetlifeice@gmail.com </a>
+<p>555, John Kennedy Street </p>
+</div>
+<div class="copyright-section">
+    <p>This website has been developed by sweet Life IceCream &copy 2022</p>
+
+</div>
+</footer>
+
+</div>
+    <script src='./js/script.js'></script>
+</body>
+</html>
